@@ -1,7 +1,7 @@
 <?php
 
 include 'db.php';
-
+/*
 // 3️⃣ Validar que los datos vienen por POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") { // $_SERVER["REQUEST_METHOD"] verifica como se envió el formulario.
     
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // $_SERVER["REQUEST_METHOD"] verifi
 
 // 9️⃣ Cerrar conexión
 $conexion->close();
-
+*/
 
 /*
 1. Se prepara la consulta con prepare(), definiendo los marcadores ?:
@@ -50,3 +50,4 @@ $stmt = $conexion->prepare("INSERT INTO ventas (producto, cantidad, precio) VALU
 3. Se ejecuta la consulta con execute():
 $stmt->execute();
 */
+
